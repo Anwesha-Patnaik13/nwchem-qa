@@ -1,0 +1,15 @@
+start ammonia_energy
+title "ammonia energy"
+geometry units angstrom
+N  0.000  0.000  0.116
+H  0.000  0.939 -0.271
+H  0.813 -0.470 -0.271
+H -0.813 -0.470 -0.271
+end
+basis
+  * library 6-31G*
+end
+dft
+  xc b3lyp
+end
+task dft energy

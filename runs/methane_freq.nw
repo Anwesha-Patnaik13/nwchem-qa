@@ -1,0 +1,16 @@
+start methane_freq
+title "methane freq"
+geometry units angstrom
+C  0.000  0.000  0.000
+H  0.629  0.629  0.629
+H -0.629 -0.629  0.629
+H -0.629  0.629 -0.629
+H  0.629 -0.629 -0.629
+end
+basis
+  * library 6-31G*
+end
+dft
+  xc b3lyp
+end
+task dft freq

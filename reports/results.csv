@@ -1,0 +1,10 @@
+molecule,task,energy,bond_A,finished,scf_converged,energy_ok,overall,opt_converged,bond_ok,no_imaginary
+water,energy,-76.408711830485,,True,True,True,PASS,,,
+water,optimize,-76.408954536033,0.9687359542735622,True,True,True,PASS,True,True,
+water,freq,-76.408711289977,,True,True,True,PASS,,,True
+methane,energy,-40.518348032005,,True,True,True,PASS,,,
+methane,optimize,-40.518385124643,1.093269482468515,True,True,True,PASS,True,True,
+methane,freq,-40.518346391786,,True,True,True,PASS,,,True
+ammonia,energy,-56.54790554635,,True,True,True,PASS,,,
+ammonia,optimize,-56.547933737458,1.0189471745617564,True,True,True,PASS,True,True,
+ammonia,freq,-56.547905361362,,True,True,True,PASS,,,True
